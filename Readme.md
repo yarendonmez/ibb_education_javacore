@@ -9,7 +9,9 @@
 git init
 git add .
 git commit -m "add massage"
-git push -u origin master
+git push -u origin 
+
+git clone https://github.com/yarendonmez/ibb_education_javacore.git
 ```
 ---
 
