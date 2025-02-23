@@ -17,5 +17,19 @@ git clone https://github.com/yarendonmez/ibb_education_javacore.git
 ```
 ---
 
+## Java Common Rules ()
+
+```sh
+Class isimleri: PascalCase göre yazılır.
+Class isimleri: fiil olarak kullanmayız (mak-mek)
+Class : Javada static class yoktur (inner class hariç!)
+
+Paket isimleri: Küçük harflerle yazılır.
+Paket isimleri: isimleri fiil olarak kullanmayız (mak-mek)
+
+Javada her biten kelime ';' ile bitmek zorundadır.
+
+```
+---
 
 
