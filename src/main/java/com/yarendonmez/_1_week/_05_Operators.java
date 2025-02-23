@@ -1,4 +1,4 @@
-package com.yarendonmez._1_part_javatypes;
+package com.yarendonmez._1_week;
 
 public class _05_Operators {
     public static void main(String[] args) {
