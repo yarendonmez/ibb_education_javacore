@@ -11,4 +11,4 @@ Hibernate sitesine releases sayfasına giriyoruz ve orada tüm versiyonlar liste
 Sayfaya girdiğimizde Hibernate’in bizim için Maven ekleme kodlarını yazdığını görüyoruz. Bu yalnızca Hibernate için bir durum değil, birçok şirket yeniden kullanılabilir projelerini bu şekilde yayınlıyor.
 Üstteki xml satırlarını POM.xml içerisine kopyalıyoruz. Daha sonra projede aşağıdaki gibi update project yapınca bağımlılıklar projemize dahil olmuş oluyor. Bu kadar basit.
 
-## Kaynak: https://tugrulbayrak.medium.com/maven-java-geliştiricisinin-kurtarıcısı-914f345170a2
+### Kaynak: https://tugrulbayrak.medium.com/maven-java-geliştiricisinin-kurtarıcısı-914f345170a2
