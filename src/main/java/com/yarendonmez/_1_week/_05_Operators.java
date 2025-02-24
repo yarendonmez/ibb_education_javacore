@@ -24,5 +24,5 @@ public class _05_Operators {
         // ++ 1 artır,  -- 1 azalt
     }
     }
-}
+
 
