@@ -29,7 +29,8 @@ public class SumUntil100 {
             }
             sum += i;
         }
-        System.out.println("Sonuç: "+sum);
+        System.out.println("Sonuç: "+sum); //Sonucu ekrana yazdırır
+        input.close(); //Scannerı kapatır
     }
 }
 
