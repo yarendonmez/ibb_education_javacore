@@ -23,14 +23,21 @@ public class _04_05_Cast {
         System.out.println(cast4Int+" ascii kodunun değeri: "+cast4Char);
 
         // 5-) String => int
-        String cast4String="10";
-        int cast4Int1=Integer.valueOf(cast4String);
-        int cast4Int2=Integer.parseInt(cast4String);
-        System.out.println(cast4String+20);
-        System.out.println(cast4Int1+20);
-        System.out.println(cast4Int2+20);
+        String cast5String="10";
+        int cast5Int1=Integer.valueOf(cast5String);
+        int cast5Int2=Integer.parseInt(cast5String);
+        System.out.println(cast5String+20);
+        System.out.println(cast5Int1+20);
+        System.out.println(cast5Int2+20);
 
-        //int cast4Int3 = cast4String; //java: incompatible types: java.lang.String cannot be converted to int hatası verir
+        //int cast4Int3 = cast5String; //java: incompatible types: java.lang.String cannot be converted to int hatası verir
+
+        //6-)Int => String
+        int cast6Int1 = 2002;
+        String cast6String1 = String.valueOf(cast6Int1);
+        System.out.println(cast6String1);
+
+
     }
 
 }
