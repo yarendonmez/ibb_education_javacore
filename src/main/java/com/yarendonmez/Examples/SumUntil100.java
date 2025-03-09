@@ -24,7 +24,7 @@ public class SumUntil100 {
 
             //100 den fazla veri olursa
             if (i > 100) {
-                System.out.println("Sayı üst sınırı olan 100'ü aştınız!");
+                System.out.println("Sayı üst sınırı olan 100'ü aştınız!\n100'e kadar olan toplam hesaplandı:");
                 break;
             }
             sum += i;
