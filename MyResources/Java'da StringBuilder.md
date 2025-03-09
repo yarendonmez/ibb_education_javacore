@@ -86,4 +86,25 @@ System.out.println(sb); // Çıktı: abahreM
 ✅ **Performans önemliyse.**  
 ✅ **Tek iş parçacığında çalışıyorsan.**
 
-**📌 Eğer string sadece okunacaksa ve değiştirilmeyecekse, `String` kullanman daha iyidir.** Ama
+**📌 Eğer string sadece okunacaksa ve değiştirilmeyecekse, `String` kullanman daha iyidir.** Ama **sürekli ekleme, değiştirme gibi işlemler yapacaksan `StringBuilder` çok daha verimli olur.**
+
+---
+
+## **5️⃣ Özet**
+| **Metot** | **Açıklama** |
+|----------|-------------|
+| `append()` | String'in sonuna ekleme yapar |
+| `insert()` | Belirtilen indekse string ekler |
+| `replace()` | Belirtilen aralıktaki stringi değiştirir |
+| `delete()` | Belirtilen aralıktaki karakterleri siler |
+| `reverse()` | String’i ters çevirir |
+
+---
+
+## **Sonuç**
+- `String` **immutable** (değiştirilemez), `StringBuilder` **mutable** (değiştirilebilir).
+- `StringBuilder`, `String`'e göre **çok daha hızlı ve verimli** çalışır.
+- `StringBuffer`, `StringBuilder` ile aynıdır ama **synchronized** olduğu için daha yavaştır.
+
+**🚀 Genel olarak, eğer `String` üzerinde çok fazla işlem yapıyorsan, `StringBuilder` kullanmalısın!**
+
