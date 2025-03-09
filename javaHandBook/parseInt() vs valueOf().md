@@ -59,4 +59,3 @@ System.out.println(cast4Int + 20); // Çıktı: 30
 - **`parseInt()`** daha hızlıdır ve az bellek tüketir.
 - **`valueOf()`** `Integer` nesnesi döndürür ve cache optimizasyonu yapar.
 
-Umarım netleşmiştir! 😎 Anlamadığın bir nokta varsa sorabilirsin. 🚀

@@ -174,4 +174,3 @@ public class Main {
 
 🚀 Eğer **günümüz Java projelerinde çalışmak istiyorsan**, **Java 8’i öğrenmek zorundasın!** 😎
 
-**Sormak istediğin bir şey var mı Yaren?** 🚀
