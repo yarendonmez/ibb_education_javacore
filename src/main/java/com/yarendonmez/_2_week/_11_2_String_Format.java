@@ -21,11 +21,18 @@ public class _11_2_String_Format {
         // Eğer String.format() yazarsak kapatmak zorunda değiliz GC(Garbarage Collector) otomatik çalışır
         String formatter= String.format("Merhabalar adınız: %s, soyadınız: %s, yaşınız: %d, maaşınız: %f", "Yaren", "Dönmez", 23, 136.9);
         System.out.println(formatter);
+    }
 
+    //formatter 4
+    public static void formatter4() {
+        // Eğer String.format() yazarsak kapatmak zorunda değiliz GC(Garbarage Collector) otomatik çalışır
+        System.out.printf("Merhabalar adınız: %s, soyadınız: %s, yaşınız: %d, maaşınız: %f", "Yaren", "Dönmez", 23, 136.9);
     }
 
     public static void main(String[] args) {
         formatter1();
         formatter2();
+        //formatter3();
+        formatter4();
     }
 }
