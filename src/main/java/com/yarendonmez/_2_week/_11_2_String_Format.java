@@ -23,6 +23,19 @@ public class _11_2_String_Format {
         System.out.println(formatter);
     }
 
+    // formatter3 (Best Practice)
+    public static void formatter3() {
+        String name = "Yaren";
+        String surname = "Dönmez";
+        int age = 23;
+        float salary = 136.9F;
+        System.out.printf("Merhabalar adınız: %s, soyadınız: %s, yaşınız: %d, maaşınız: %.2f", name, surname,age, salary);
+        System.out.println();
+        System.out.printf("Merhabalar adınız: %s, soyadınız: %s, yaşınız: %d, maaşınız: %.3f",name, surname,age, salary);
+        System.out.println();
+
+    }
+
     //formatter 4
     public static void formatter4() {
         // Eğer String.format() yazarsak kapatmak zorunda değiliz GC(Garbarage Collector) otomatik çalışır
@@ -32,7 +45,7 @@ public class _11_2_String_Format {
     public static void main(String[] args) {
         formatter1();
         formatter2();
-        //formatter3();
+        formatter3();
         formatter4();
     }
 }
